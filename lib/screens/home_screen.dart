@@ -27,8 +27,11 @@ class HomeScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: ClipRRect(
-                  borderRadius: BorderRadius.circular(10),
-                  child: Container(),
+                  // borderRadius: BorderRadius.circular(10),
+                  child: Image.network(
+                    'https://static.platzi.com/media/uploads/flutter_lasana_b894f1aee1.jpg',
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
               SizedBox(width: 26),
